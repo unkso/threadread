@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/option.xsd">
+	<import>
+		<categories>
+			<category name="threadread">
+				<showorder>19</showorder>
+			</category>
+			<category name="threadread.general">
+				<parent>threadread</parent>
+			</category>
+		</categories>
+
+		<options>
+			<option name="wbb_threadread_active">
+				<categoryname>threadread.general</categoryname>
+				<optiontype>boolean</optiontype>
+			</option>
+			<option name="wbb_threadread_groupID">
+				<categoryname>threadread.general</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<validationpattern><![CDATA[\b(0*[1-9]+0*)+\b]]></validationpattern>
+			</option>
+			<option name="wbb_threadread_max_enable">
+				<categoryname>threadread.general</categoryname>
+				<optiontype>boolean</optiontype>
+			</option>
+			<option name="wbb_threadread_max">
+				<categoryname>threadread.general</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>20</defaultvalue>				
+				<validationpattern><![CDATA[\b(0*[1-9]+0*)+\b]]></validationpattern>
+			</option>
+		</options>
+	</import>
+</data>

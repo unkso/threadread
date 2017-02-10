@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/vortex/language.xsd" languagecode="de">
+	<category name="wbb.thread.read">
+		<item name="wbb.thread.read.whoread"><![CDATA[Who has read this thread]]></item>
+		<item name="wbb.thread.read.gotimeline"><![CDATA[See timeline]]></item>
+		<item name="wbb.thread.read.viewedby"><![CDATA[Viewed by]]></item>
+		<item name="wbb.thread.read.postby"><![CDATA[Post by ]]></item>
+		<item name="wbb.thread.read.tooltip"><![CDATA[last viewed: {$lastvisit} (first viewed: {$firstvisit})]]></item>
+		<item name="wbb.thread.read.pagetitle"><![CDATA[Thread Timeline]]></item>
+	</category>
+	
+	<category name="wbb.threadread">		
+		<item name="wbb.threadread.readcount"><![CDATA[{@$whoReadUsers|count} {if $whoReadUsers|count == 1}user{else}users have read this thread{/if}]]></item>
+		<item name="wbb.threadread.viewcount"><![CDATA[({$thread->views} {if $thread->views == 1}view{else}views{/if} in total)]]></item>
+		<item name="wbb.threadread.more"><![CDATA[more]]></item>
+		<item name="wbb.threadread.less"><![CDATA[less]]></item>
+	</category>	
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.user.threadread"><![CDATA[Thread Read]]></item>
+		<item name="wcf.acp.group.option.user.threadread.canView"><![CDATA[Can see who has read a thread]]></item>
+	</category>	
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.threadread.general"><![CDATA[Settings]]></item>
+		<item name="wcf.acp.option.category.threadread"><![CDATA[Thread Read]]></item>
+		<item name="wcf.acp.option.wbb_threadread_active"><![CDATA[Enable Thread Read]]></item>
+		<item name="wcf.acp.option.wbb_threadread_max_enable"><![CDATA[Only display the number of users set below]]></item>
+		<item name="wcf.acp.option.wbb_threadread_groupID"><![CDATA[Only members of this usergroup ID will be added to the Thread Read list]]></item>
+		<item name="wcf.acp.option.wbb_threadread.max_enable.description"><![CDATA[If this option is disable, the remaining users can be displayed by clicking.]]></item>
+		<item name="wcf.acp.option.wbb_threadread_max"><![CDATA[Number of users to be displayed.]]></item>		
+	</category>	
+</language>

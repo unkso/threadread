@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/vortex/XSD/templateListener.xsd">
+	<import>
+		<!-- user -->
+		<templatelistener name="whoReadThisThread">
+			<environment>user</environment>
+			<eventname>infoBoxes</eventname>
+			<templatecode><![CDATA[{include file='whoReadThisThread' application='wbb'}]]></templatecode>
+			<templatename>thread</templatename>
+		</templatelistener>
+		<!-- /user -->
+	</import>
+</data>
