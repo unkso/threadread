@@ -7,6 +7,8 @@
 		<item name="wbb.thread.read.postby"><![CDATA[Post by ]]></item>
 		<item name="wbb.thread.read.tooltip"><![CDATA[last viewed: {$lastvisit} (first viewed: {$firstvisit})]]></item>
 		<item name="wbb.thread.read.pagetitle"><![CDATA[Thread Timeline]]></item>
+		<item name="wbb.thread.read.back"><![CDATA[Back to Thread]]></item>
+		<item name="wbb.thread.read.back.icon"><![CDATA[fa-arrow-left]]></item>
 	</category>
 	
 	<category name="wbb.threadread">		

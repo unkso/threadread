@@ -48,13 +48,13 @@
 						{if $counter <= WBB_THREADREAD_MAX}
 							<li {if $counter == WBB_THREADREAD_MAX}class="threadread_max_child collapsed"{/if}>
 							{if $whoReadUser['userID'] != 0}
-								<span class="jsTooltip" title="last viewed: {$lastvisit} (first viewed: {$firstvisit})">{$username}</span>
+								<span class="jsTooltip" title="{lang}wbb.thread.read.tooltip{/lang}">{$username}</span>
 							{/if}
 							</li>
 						{else}
 							<li class="moreWrites" style="display:none;">
 								{if $whoReadUser['userID'] != 0}
-									<span class="jsTooltip" title="last viewed: {$lastvisit} (first viewed: {$firstvisit})">{$username}</span>
+									<span class="jsTooltip" title="{lang}wbb.thread.read.tooltip{/lang}">{$username}</span>
 								{/if}
 							</li>
 						{/if}
@@ -69,7 +69,7 @@
 						
 						<li>
 							{if $whoReadUser['userID'] != 0}
-								<span class="jsTooltip" title="last viewed: {$lastvisit} (first viewed: {$firstvisit})">{$username}</span>
+								<span class="jsTooltip" title="{lang}wbb.thread.read.tooltip{/lang}">{$username}</span>
 							{/if}
 						</li>
 					{/foreach}

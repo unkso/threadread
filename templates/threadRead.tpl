@@ -18,7 +18,7 @@
 
     <div class="action-bar top clearfix wbbThread">
 	<div class="buttons">
-		<a href="{link controller='Thread' id=$threadID}{/link}" class="btn btn-primary"><i class="fa fa-arrow-left"></i> <span>Back to Thread</span></a>
+		<a href="{link controller='Thread' id=$threadID}{/link}" class="btn btn-primary"><i class="fa {lang}wbb.thread.read.back.icon{/lang}"></i> <span>{lang}wbb.thread.read.back{/lang}</span></a>
 	</div>
     </div>
 
@@ -62,7 +62,7 @@
     
     <div class="action-bar bottom clearfix" style="margin-top:21px;">
 	<div class="buttons">
-		<a href="{link controller='Thread' id=$threadID}{/link}" class="btn btn-primary"><i class="fa fa-arrow-left"></i> <span>Back to Thread</span></a>
+		<a href="{link controller='Thread' id=$threadID}{/link}" class="btn btn-primary"><i class="fa {lang}wbb.thread.read.back.icon{/lang}"></i> <span>{lang}wbb.thread.read.back{/lang}</span></a>
 	</div>
     </div>
 
