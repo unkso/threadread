@@ -50,7 +50,7 @@
 	    			{assign var='postID' value=$entry['postID']}
 	    			<article class="timeline-box left">
 	    				<div class="portfolio-item">
-	    					<h4><a href="{link controller='Thread' id=$threadID postID=$postID}{/link}">{lang}wbb.thread.read.postby{/lang}{$username}</a></h4>
+	    					<h4><a href="{link controller='Thread' id=$threadID postID=$postID}{/link}#post{$postID}">{lang}wbb.thread.read.postby{/lang}{$username}</a></h4>
 	    					<p>{$message}</p>
 	    				</div>
 	    			</article>
